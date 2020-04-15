@@ -14,7 +14,9 @@
 void display(char **array_main,int baris,int kolom){
     int ms=250,i,j;
     clock_t start=clock();
+    
     while(clock()<start+ms);
+    
     system("cls");
     for(i=0;i<baris;i++){
         for(j=0;j<kolom;j++){
